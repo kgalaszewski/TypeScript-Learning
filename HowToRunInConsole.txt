@@ -1,0 +1,2 @@
+tsc .\Interfaces_And_Classes.ts
+node .\Interfaces_And_Classes.js

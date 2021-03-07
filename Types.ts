@@ -16,7 +16,7 @@ let bgc = Color2.Red; // 123
 let bgc2 = Color2.Blue; // 1
 
 let u; // any
-let i = 3; // number
+let i = 3; // numbernpm install typescript
 
 
 let x = 5; // its already the same as you would declare let x: number = 5;
