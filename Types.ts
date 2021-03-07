@@ -30,3 +30,24 @@ let z; // any type - automatically dynamic
 z = 1;
 z = 'asd'; // does not throw
 z = true; // does not throw
+
+// TUPLES !
+let someTuple: [number, string];
+
+someTuple = [2, 's'];
+
+// someTuple = [2, 's', '']; outlined red, because we defined its number and string
+// it behaves like an array of any, but with defined types in defined order 
+
+
+// functions as params (like delegates in c#)
+function doStuffik(param: string): void {
+    console.log(param);
+}
+
+function doStuff(name: string, funkcyjka: (name: string) => void) {
+    funkcyjka(name);
+}
+
+doStuff('Karol', doStuffik);
+doStuff('Kodi', (something: string) => console.log(something));
